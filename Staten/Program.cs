@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CocaineCrackDown {
+namespace Staten {
     public static class Program {
         [STAThread]
         private static void Main() {

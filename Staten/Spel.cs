@@ -7,7 +7,9 @@ using Nez.Console;
 
 using System;
 
-namespace CocaineCrackDown {
+using Staten.Scener;
+
+namespace Staten {
     public class Spel : Core {
         public Spel() {
         }
