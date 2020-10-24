@@ -6,8 +6,7 @@ using Nez;
 using Nez.Console;
 
 using System;
-
-using Staten.Scener;
+using Staten.Scenes;
 
 namespace Staten {
     public class Spel : Core {
@@ -27,12 +26,12 @@ namespace Staten {
             //gör knappen  till f10 för att öppna den
             DebugConsole.ConsoleKey = Keys.F10;
             //lägger scen ett som start scen
-            NyScen1();
+            NewScene();
 
         }
 
-        private static void NyScen1() {
-            Scene = new Scen1();
+        private static void NewScene() {
+            Scene = new SceneOne();
         }
     }
 }
