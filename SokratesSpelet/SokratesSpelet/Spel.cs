@@ -10,8 +10,7 @@ namespace SokratesSpelet
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class Spel : Microsoft.Xna.Framework.Game
-    {
+    public class Spel : Game {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Rectangle textBox;
