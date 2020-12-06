@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
@@ -113,12 +114,18 @@ namespace ZyberLibrary.SpelStatusar {
 
             //slut på spriteBatch
         }
-
+        bool bro;
         ///////////////////////////////////////////////////////////////////////////
         public override void Uppdatera(GameTime gameTime) {
 
             // förflutenTid är mängden millisekunder som har förflutit sen start
-            FörflutenTid = gameTime.ElapsedGameTime.Milliseconds;
+            FörflutenTid += gameTime.ElapsedGameTime.Milliseconds;
+            if(FörflutenTid >= 4000 && !bro) {
+                outstr = WordWrap.WrapText(SpelResurser.StrandardFont, WordWrap.RemaningWords, 200, 5);
+                bro = true;
+            }
+
+
         }
     }
 }
