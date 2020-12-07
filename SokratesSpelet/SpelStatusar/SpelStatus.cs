@@ -97,6 +97,7 @@ namespace SokratesSpelet.SpelStatusar {
             DialogBox.SetText(bruhb,3000);
             
         }
+        
 
         ///////////////////////////////////////////////////////////////////////////
         public override void Rita(GameTime gameTime) {
