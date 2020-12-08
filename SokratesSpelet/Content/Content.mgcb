@@ -80,11 +80,6 @@
 /processorParam:TextureFormat=Compressed
 /build:Standard.spritefont
 
-#begin test.xml
-/importer:XmlImporter
-/processor:PassThroughProcessor
-/build:test.xml
-
 #begin unknown.png
 /importer:TextureImporter
 /processor:TextureProcessor
