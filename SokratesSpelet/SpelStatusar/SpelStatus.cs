@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Input;
 
 using SokratesSpelet;
+using SokratesSpelet.Hanterare;
 using SokratesSpelet.Modeler;
 using SokratesSpelet.Objekt;
 using SokratesSpelet.Objekt.Kulisser;
@@ -95,7 +96,10 @@ namespace SokratesSpelet.SpelStatusar {
             DBoxX = Spel.SkärmBredd / 256;
             DialogBox = new DialogBox(DBoxX, DBoxY, spriteBatch, SpelResurser);
             DialogBox.SetText(bruhb,3000);
-            
+            DialogFilHanterare gan = new DialogFilHanterare();
+            gan.LaddaResurser();
+
+
         }
         
 
