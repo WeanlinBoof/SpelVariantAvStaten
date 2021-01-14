@@ -12,6 +12,9 @@ namespace SokratesSpelet {
         public static string[] RemaningWords;
         public static string RemaningText;
         public static string WrapText(SpriteFont spriteFont, string text, float maxLineWidth, float maxLineHeight) {
+            if(string.IsNullOrEmpty(text)) {
+                return " ";
+            }
             string[] words = text.Split(' ');
             RemaningWords = new string[words.Length];
 

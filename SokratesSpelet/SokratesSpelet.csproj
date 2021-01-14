@@ -10,12 +10,12 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Content\XML\DialogText\TestDialog.xml" />
+    <None Remove="Content\XML\DialogText\DialogScen1.xml" />
     <None Remove="Icon.ico" />
     <None Remove="Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\XML\DialogText\TestDialog.xml">
+    <Content Include="Content\XML\DialogText\DialogScen1.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

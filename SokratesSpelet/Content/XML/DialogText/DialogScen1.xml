@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dialoger>
+	<Dialog Namn="SokratesDialogScen1-1">
+		jag hattar dig diognes
+	</Dialog>
+	<Dialog Namn="DiognesDialogScen1-1">
+		Jasso jag hattar dig mera, Sokrates!
+	</Dialog>
+	<Dialog Namn="SokratesDialogScen1-2">
+		URHHHHGGGG
+	</Dialog>
+
+	<Dialog Namn="DiognesDialogScen1-2">
+		ARHGGGG
+	</Dialog>
+</Dialoger>

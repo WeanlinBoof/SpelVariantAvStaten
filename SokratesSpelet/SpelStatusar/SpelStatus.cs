@@ -49,7 +49,7 @@ namespace SokratesSpelet.SpelStatusar {
 
         private float DBoxY;
         private string outstr;
-        private string bruhb = "You are a man, because you are on Discord chat for gamers. What are your favourite male experiences you've had? Which males have inspired you the most? What is masculinity? Am I masculine? How big is your cock? How deep is your love? What are your responsibilities and what are you privileges? Give some loving to all the femboys and tomboys out there. Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock? Sokrates Cock?";
+        private string bruhb = "You are a man, because you are on Discord chat for gamers. What are your favourite male experiences you've had? Which males have inspired you the most? What is masculinity? Am I masculine? How big is your cock? How deep is your love? What are your responsibilities and what are you privileges? Give some loving to all the femboys and tomboys out there.";
         ///////////////////////////////////////////////////////////////////////////
         private DialogBox DialogBox;
 
@@ -96,8 +96,8 @@ namespace SokratesSpelet.SpelStatusar {
             DBoxX = Spel.SkärmBredd / 256;
             DialogBox = new DialogBox(DBoxX, DBoxY, spriteBatch, SpelResurser);
             DialogBox.SetText(bruhb,3000);
-            DialogFilHanterare gan = new DialogFilHanterare();
-            gan.LaddaResurser();
+            DialogFilHanterare DialogFil = new DialogFilHanterare("Scen1");
+            DialogFil.LaddaResurser();
 
 
         }
